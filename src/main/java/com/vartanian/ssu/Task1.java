@@ -1,10 +1,8 @@
+package com.vartanian.ssu;
+
 import java.io.*;
-import java.lang.String;
-import java.math.*;
-import java.io.PrintWriter;
 
-public class Cezar {
-
+public class Task1 {
     public static int gcd(int a, int b) {
         while (a != b) {
             if (a > b) {
@@ -58,15 +56,5 @@ public class Cezar {
                 printWriter.close();
             }
         }
-    }
-
-    public static void main(String[] args) {
-        String alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789!,.?";
-        //String alphabet ="abcdefghijklmnopqrstuvwxyz";
-        int n = 3, k = 4;
-        int m = alphabet.length();
-        System.out.println("Total symbols in the alphabet:" + m);
-        System.out.println("GCD is - " + gcd(n,m));
-        Cypher(n,m,k,alphabet,false);
     }
 }
