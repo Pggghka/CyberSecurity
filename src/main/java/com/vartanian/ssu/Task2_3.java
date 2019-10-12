@@ -8,11 +8,13 @@ public class Task2_3 {
         workingWithFile wwf = new workingWithFile();
         String text = StringUtils.lowerCase(wwf.readFile("russianText.txt"));
 
-        int occurrence;
+        double occurrence;
+        System.out.println(text.length());
         String symbText = "";
         for (char symb : russianAlphabet.toCharArray()) {
             occurrence = StringUtils.countMatches(text, String.format("%s", symb));
-            symbText += "\n\t|\t" + symb + "\t|\t" + occurrence + "\t|";
+            symbText += "\n\t|\t" + symb + "\t|\t" + String.format("%.3f", occurrence/text.replace(" ", "").length()) + "\t|";
+
         }
         System.out.println("Task2 " + symbText);
         wwf.writeToFile("symbText.txt", symbText);
@@ -21,7 +23,7 @@ public class Task2_3 {
         for (char symb : russianAlphabet.toCharArray()) {
             for (char symbPair : russianAlphabet.toCharArray()) {
                 occurrence = StringUtils.countMatches(text, String.format("%s%s", symb, symbPair));
-                symbPairText += "\n\t|\t" + symb + symbPair + "\t|\t" + occurrence + "\t|";
+                symbPairText += "\n\t|\t" + symb + symbPair + "\t|\t" + String.format("%.3f", occurrence/text.replace(" ", "").length()) + "\t|";
             }
         }
         System.out.println("Task3 " + symbPairText);
