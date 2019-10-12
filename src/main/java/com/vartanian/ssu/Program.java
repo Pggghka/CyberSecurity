@@ -24,5 +24,8 @@ public class Program {
 //        Task4 polibiaQadr = new Task4();
 //        polibiaQadr.polibiaQadr();
 
+        Task6 Vizner = new Task6();
+        Vizner.go();
+
     }
 }
