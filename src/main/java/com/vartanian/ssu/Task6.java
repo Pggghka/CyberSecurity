@@ -10,9 +10,11 @@ public class Task6 {
         Scanner in = new Scanner(System.in);
         workingWithFile wwf = new workingWithFile();
         String word = StringUtils.upperCase(wwf.readFile("viznerCypher.txt"));
-        System.out.println("Enter key: "); String key = in.next();
+        System.out.println("Enter key: "); String key = in.next().toUpperCase();
 
         boolean Encryption = false;
+        System.out.println("Do you want to Encrypt(1) or Decrypt(0)? : ");
+        if(in.nextInt()==1)Encryption = true;
         int modInd = word.length() % key.length();
         int fullCon = word.length() / key.length();
         String newKey = "";
@@ -31,7 +33,7 @@ public class Task6 {
             }
             cypherText += russianAlphabet.charAt(cypherViznerIndex);
         }
-        System.out.println(cypherText);
+        System.out.println(cypherText+" --- Check the file \"viznerCypher.txt\"");
         wwf.writeToFile("viznerCypher.txt", cypherText);
     }
 }

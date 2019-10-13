@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9730b430-e0b7-4adf-9828-41db276347b0" name="Default Changelist" comment="Task4 added&#10;Poliba cypher">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/viznerCypher.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/symbPairText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/symbPairText.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/symbText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/symbText.txt" afterDir="false" />
     </list>
@@ -26,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Program.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="87">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/viznerCypher.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -81,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
-              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="74" />
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,7 +252,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -341,7 +339,7 @@
       <workItem from="1570537835091" duration="1012000" />
       <workItem from="1570539313010" duration="6503000" />
       <workItem from="1570905914201" duration="190000" />
-      <workItem from="1570906134636" duration="5292000" />
+      <workItem from="1570906134636" duration="8932000" />
     </task>
     <task id="LOCAL-00001" summary="Task2&amp;3 added">
       <created>1570503696139</created>
@@ -364,17 +362,24 @@
       <option name="project" value="LOCAL" />
       <updated>1570904825898</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task6 added">
+      <created>1570915105312</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570915105312</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51618000" />
+    <option name="totallyTimeSpent" value="55258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18613607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18613607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -383,13 +388,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38433734" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38433734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.46746987" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.46746987" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -416,7 +421,8 @@
     <MESSAGE value="Task2&amp;3 added" />
     <MESSAGE value="Task4 added&#10;Poliba cypher" />
     <MESSAGE value="Task4 updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task4 updated" />
+    <MESSAGE value="Task6 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task6 added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/readFromFile.java" />
@@ -514,7 +520,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="74" />
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -524,7 +530,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -555,14 +561,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/viznerCypher.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/vartanian/ssu/Task6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="87">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
