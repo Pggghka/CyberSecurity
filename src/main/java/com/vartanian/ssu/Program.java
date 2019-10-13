@@ -24,8 +24,11 @@ public class Program {
 //        Task4 polibiaQadr = new Task4();
 //        polibiaQadr.polibiaQadr();
 
-        Task6 Vizner = new Task6();
-        Vizner.go();
+//        Task6 Vizner = new Task6();
+//        Vizner.go();
+
+        Task7 cezarWithKey = new Task7();
+        cezarWithKey.go();
 
     }
 }

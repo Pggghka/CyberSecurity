@@ -15,12 +15,16 @@ public class Task6 {
         boolean Encryption = false;
         System.out.println("Do you want to Encrypt(1) or Decrypt(0)? : ");
         if(in.nextInt()==1)Encryption = true;
+        //How many symbolls add
         int modInd = word.length() % key.length();
+        //How many times add word
         int fullCon = word.length() / key.length();
         String newKey = "";
         String cypherText = "";
+
         for (int i = 0; i < fullCon; i++) newKey+=key;
         for (int i = 0; i < modInd; i++) newKey+=key.charAt(i);
+
         for(int i = 0; i<word.length() ;i++){
             int indexWord = russianAlphabet.indexOf(word.charAt(i));
             int indexKey = russianAlphabet.indexOf(newKey.charAt(i));
