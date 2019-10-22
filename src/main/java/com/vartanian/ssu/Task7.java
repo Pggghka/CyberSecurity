@@ -32,6 +32,6 @@ public class Task7 {
         System.out.println(russianAlphabet + "\n" + newCypherAlphabet + "\n" + text);
 
         System.out.println(cypher(text, russianAlphabet, newCypherAlphabet, Encryption));
-        wwf.writeToFile("viznerCypher.txt", cypher(text, russianAlphabet, newCypherAlphabet, Encryption));
+        wwf.writeToFile("cezarWithKey.txt", cypher(text, russianAlphabet, newCypherAlphabet, Encryption));
     }
 }

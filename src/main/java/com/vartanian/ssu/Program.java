@@ -27,8 +27,11 @@ public class Program {
 //        Task6 Vizner = new Task6();
 //        Vizner.go();
 
-        Task7 cezarWithKey = new Task7();
-        cezarWithKey.go();
+//        Task7 cezarWithKey = new Task7();
+//        cezarWithKey.go();
+
+        Task8 paired = new Task8();
+        paired.go();
 
     }
 }
