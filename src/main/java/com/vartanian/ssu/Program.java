@@ -29,9 +29,12 @@ public class Program {
 
 //        Task7 cezarWithKey = new Task7();
 //        cezarWithKey.go();
+//
+//        Task8 paired = new Task8();
+//        paired.go();
 
-        Task8 paired = new Task8();
-        paired.go();
+        Task9 XOR = new Task9();
+        XOR.go();
 
     }
 }
