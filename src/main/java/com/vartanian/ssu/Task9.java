@@ -18,17 +18,12 @@ public class Task9 {
     }
 
     public byte[] encrypt(String text, String keyWord){
-        try {
-            byte[] arr = text.getBytes("windows-1251");
-            byte[] keyArr = keyWord.getBytes("windows-1251");
+            byte[] arr = text.getBytes();
+            byte[] keyArr = keyWord.getBytes();
             byte[] result = new byte[arr.length];
             for(int i = 0; i < arr.length; i++)
                 result[i] = (byte) (arr[i] ^ keyArr[i % keyArr.length]);
             return result;
-        } catch (UnsupportedEncodingException e) {
-            System.out.println(e);
-            return null;
-        }
     }
 
     public void go(){

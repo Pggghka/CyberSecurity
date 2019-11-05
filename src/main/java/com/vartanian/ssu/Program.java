@@ -33,8 +33,11 @@ public class Program {
 //        Task8 paired = new Task8();
 //        paired.go();
 
-        Task9 XOR = new Task9();
-        XOR.go();
+//        Task9 XOR = new Task9();
+//        XOR.go();
+
+        Task10 Transpos = new Task10();
+        Transpos.go();
 
     }
 }
