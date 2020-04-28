@@ -12,6 +12,17 @@ public class Task8 {
         String text = StringUtils.upperCase(wwf.readFile("pairedCypher.txt"));
 
         System.out.println("Enter key which must be >= 21: "); String key = in.next().toUpperCase();
+        if(key.length()<russianAlphabet.length()/2){
+            System.out.println("Длина должна быть не меньше алфавита деленного на 2");
+
+        }
+
+        for (int i = 0; i < key.length(); i++){
+            if (StringUtils.countMatches(key, String.format("%s", key.charAt(i)))>1){
+                System.out.println("Встречаются одинавковые символы");
+                return;
+            }
+        }
 
         //symbols that are not in key
         String pairedAlphabet = "";
@@ -26,6 +37,5 @@ public class Task8 {
         // ЖЕЛЕЗНЫЙШПИЦЪДОМА03478?!
         System.out.println(cyphMessage);
         wwf.writeToFile("pairedCypher.txt", cyphMessage);
-
     }
 }

@@ -27,7 +27,7 @@ public class Task7 {
             if (index++ >= russianAlphabet.length()-1) break;
         }
         String newCypherAlphabet = "";
-        for(int i = k-1; i > 0; i--) newCypherAlphabet+= russianAlphabet.charAt(russianAlphabet.length()-i);
+        for(int i = k-1; i > 0; i--) newCypherAlphabet += russianAlphabet.charAt(russianAlphabet.length()-i);
         newCypherAlphabet+=cypherAlphabet;
         System.out.println(russianAlphabet + "\n" + newCypherAlphabet + "\n" + text);
 
